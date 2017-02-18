@@ -66,7 +66,7 @@ public class LauncherActivity extends Activity {
 		editor.commit();
 		if(cmdArgs.length() != 0) intent.putExtra("argv", cmdArgs.getText().toString());
 		// Uncomment to set gamedir here
-		// intent.putExtra("gamedir", "bshift" );
+		intent.putExtra("gamedir", "bshift" );
 		intent.putExtra("gamelibdir", getFilesDir().getAbsolutePath().replace("/files","/lib"));
 		startActivity(intent);
     }
