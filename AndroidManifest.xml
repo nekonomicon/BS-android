@@ -4,10 +4,10 @@
       package="in.celest.xash3d.bshift"
       android:versionCode="490"
       android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="23"/>
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="26"/>
     <!-- Set your application name here -->
     <application android:label="BSLauncher"
-		 android:debuggable="true"
+		 android:debuggable="false"
 		 android:icon="@drawable/logo_xash_bshift">
     <!-- Set your launcher title here -->
         <activity android:name="in.celest.xash3d.LauncherActivity"
